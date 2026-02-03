@@ -19,7 +19,7 @@ Project ini adalah game visual novel berbasis Ren'Py. Dokumentasi ini menjelaska
 Sebelum mulai development atau menjalankan game, pastikan tools di bawah sudah terinstall:
 
 1. Git
-   - Wajib kalau project diambil dari GitHub (git clone)
+   - Download: https://git-scm.com/
 2. Ren'Py SDK
    - Download: https://www.renpy.org/latest.html
 3. Text editor / IDE
@@ -31,8 +31,29 @@ Urutan yang paling nyaman (disarankan): install Ren'Py dulu, lalu clone repo. Al
 
 ### 1) Install Ren'Py SDK
 
-1. Download Ren'Py SDK lalu install/extract.
-2. Jalankan Ren'Py Launcher.
+Link utama (halaman download terbaru): https://www.renpy.org/latest.html
+
+Pilih installer sesuai OS kamu (Ren'Py SDK 8.5.2):
+
+- Windows (7z self-extracting): https://www.renpy.org/dl/8.5.2/renpy-8.5.2-sdk.7z.exe
+- macOS (DMG): https://www.renpy.org/dl/8.5.2/renpy-8.5.2-sdk.dmg
+- Linux (tar.bz2): https://www.renpy.org/dl/8.5.2/renpy-8.5.2-sdk.tar.bz2
+
+Langkah instalasi:
+
+- Windows
+  1. Jalankan file `renpy-8.5.2-sdk.7z.exe`.
+  2. Pilih lokasi extract (misalnya `C:\Users\<kamu>\Documents\renpy-8.5.2-sdk`).
+  3. Buka folder hasil extract, lalu jalankan `renpy.exe` untuk membuka Ren'Py Launcher.
+
+- macOS
+  1. Buka file `.dmg`.
+  2. Drag folder Ren'Py ke `Applications` (atau folder lain yang kamu mau).
+  3. Jalankan Ren'Py untuk membuka Ren'Py Launcher.
+
+- Linux
+  1. Extract file `.tar.bz2` ke folder pilihan.
+  2. Masuk ke folder hasil extract, lalu jalankan `./renpy.sh` untuk membuka Ren'Py Launcher.
 
 ### 2) Clone repository (GitHub)
 
@@ -71,25 +92,44 @@ Catatan:
 
 1. Dari Ren'Py Launcher, klik **preferences**.
 
+<details>
+<summary>Lihat screenshot (preferences)</summary>
+
 ![Buka preferences](docs/images/01.png)
+
+</details>
 
 2. Di tab **General**, set **Projects Directory** ke folder yang berisi kumpulan project.
 
 - Jika project kamu berada di `Documents/projects/please_remember_me`, maka Projects Directory harus `Documents/projects`.
 
+<details>
+<summary>Lihat screenshots (Projects Directory)</summary>
+
 ![Set Projects Directory](docs/images/0201.png)
 ![Set Projects Directory](docs/images/0202.png)
-![Set Projects Directory](docs/images/0203.png)
+
+</details>
 
 3. Masih di tab **General**, pada **Text Editor** klik lalu pilih **Visual Studio Code (System)** agar Ren'Py membuka VS Code yang sudah terinstall untuk edit .rpy.
+
+<details>
+<summary>Lihat screenshots (Text Editor)</summary>
 
 ![Pilih VS Code (System)](docs/images/0301.png)
 ![Pilih VS Code (System)](docs/images/0302.png)
 
+</details>
+
 4. Klik **Return** untuk kembali ke menu utama.
 5. Jika project belum muncul di daftar kiri, klik **refresh**.
 
+<details>
+<summary>Lihat screenshot (refresh daftar project)</summary>
+
 ![Refresh daftar project](docs/images/04.png)
+
+</details>
 
 6. Setelah project muncul, pilih project lalu klik **Launch Project**.
 
