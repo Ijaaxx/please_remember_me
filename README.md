@@ -68,7 +68,6 @@ Windows (PowerShell):
 New-Item -ItemType Directory -Force "$env:USERPROFILE\Documents\projects" | Out-Null
 Set-Location "$env:USERPROFILE\Documents\projects"
 
-# Ganti URL di bawah dengan URL repo GitHub kamu
 git clone https://github.com/Ijaaxx/please_remember_me.git please_remember_me
 
 ```
@@ -79,7 +78,6 @@ macOS/Linux (Terminal):
 mkdir -p "$HOME/Documents/projects"
 cd "$HOME/Documents/projects"
 
-# Ganti URL di bawah dengan URL repo GitHub kamu
 git clone https://github.com/Ijaaxx/please_remember_me.git please_remember_me
 ```
 
