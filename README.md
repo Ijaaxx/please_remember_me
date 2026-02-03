@@ -131,6 +131,13 @@ Catatan:
 
 6. Setelah project muncul, pilih project lalu klik **Launch Project**.
 
+<details>
+<summary>Lihat screenshot (launch project)</summary>
+
+![Launch Project](docs/images/05.png)
+
+</details>
+
 ## Development workflow
 
 ### Edit script
